@@ -14,7 +14,7 @@ open class DataBaseDomain: Domain {
     
     var handler: DomainHandler
     
-    var enable: Bool = false
+    var enable: Bool = true
     
     required public init(handler: DomainHandler) {
         self.handler = handler
@@ -37,6 +37,12 @@ open class DataBaseDomain: Domain {
     }
 
     open func addDatabase(id: String, domain: String, name: String, version: String) {
-        
+        let params = [
+            "id": id,
+            "domain": domain,
+            "name": name,
+            "version": version,
+        ]
+        handler.send(method: "DataBase.addDatabase", params: ["database": params])
     }
 }

@@ -29,8 +29,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-        let urls = ChromeDevTools.create(host: "127.0.0.1", port: 8888, deviceId: deviceId())
-        print(urls)
+        let url = ChromeDevTools.create(host: "127.0.0.1", port: 9223, deviceId: deviceId())
+        print(url)
         return true
     }
 

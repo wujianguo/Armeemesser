@@ -32,27 +32,30 @@ open class ChromeDevTools: WebSocketDelegate {
     
     open static var sharedInstance: ChromeDevTools!
     
-    open static func create(host: String, port: Int, deviceId: String) -> (URL, URL) {
+    open static func create(host: String, port: Int, deviceId: String) -> URL {
         if sharedInstance != nil {
             sharedInstance.disconnect()
         }
         let url = URL(string: "ws://\(host):\(port)/device/\(deviceId)")!
         sharedInstance = ChromeDevTools(url: url)
         sharedInstance.connect()
-        return (url, URL(string: "ws://\(host):\(port)/devtools/page/\(deviceId)")!)
+        let chromeURL = URL(string: "chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=\(host):\(port)/devtools/page/\(deviceId)")!
+        return chromeURL
     }
     
     let socket: WebSocket
 
     open let log: LogDomain
     
+    open let database: DataBaseDomain
     
     var domains: [Domain]
 
     public init(url: URL) {
         socket = WebSocket(url: url)
         log = LogDomain(handler: socket)
-        domains = [log]
+        database = DataBaseDomain(handler: socket)
+        domains = [log, database]
     }
     
     func connect() {

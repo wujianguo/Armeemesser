@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		810DA86820ABD64400EF2A54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA86720ABD64400EF2A54 /* AppDelegate.swift */; };
+		810DA86A20ABD64400EF2A54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA86920ABD64400EF2A54 /* ViewController.swift */; };
+		810DA86D20ABD64400EF2A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810DA86B20ABD64400EF2A54 /* Main.storyboard */; };
+		810DA87020ABD64400EF2A54 /* ArmeemesserDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 810DA86E20ABD64400EF2A54 /* ArmeemesserDemo.xcdatamodeld */; };
+		810DA87220ABD64500EF2A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810DA87120ABD64500EF2A54 /* Assets.xcassets */; };
+		810DA87520ABD64500EF2A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810DA87320ABD64500EF2A54 /* LaunchScreen.storyboard */; };
+		810DA88020ABD64500EF2A54 /* ArmeemesserDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA87F20ABD64500EF2A54 /* ArmeemesserDemoTests.swift */; };
+		810DA88B20ABD64500EF2A54 /* ArmeemesserDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA88A20ABD64500EF2A54 /* ArmeemesserDemoUITests.swift */; };
+		810DA8A120ABD6A900EF2A54 /* Armeemesser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810DA89E20ABD69C00EF2A54 /* Armeemesser.framework */; };
+		810DA8A220ABD6A900EF2A54 /* Armeemesser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 810DA89E20ABD69C00EF2A54 /* Armeemesser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		810DA87C20ABD64500EF2A54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810DA85C20ABD64400EF2A54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810DA86320ABD64400EF2A54;
+			remoteInfo = ArmeemesserDemo;
+		};
+		810DA88720ABD64500EF2A54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810DA85C20ABD64400EF2A54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810DA86320ABD64400EF2A54;
+			remoteInfo = ArmeemesserDemo;
+		};
+		810DA89D20ABD69C00EF2A54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810DA89820ABD69C00EF2A54 /* Armeemesser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 810DA84120ABD62F00EF2A54;
+			remoteInfo = Armeemesser;
+		};
+		810DA89F20ABD69C00EF2A54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810DA89820ABD69C00EF2A54 /* Armeemesser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 810DA84A20ABD62F00EF2A54;
+			remoteInfo = ArmeemesserTests;
+		};
+		810DA8A320ABD6A900EF2A54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810DA89820ABD69C00EF2A54 /* Armeemesser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 810DA84020ABD62F00EF2A54;
+			remoteInfo = Armeemesser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		810DA8A520ABD6A900EF2A54 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				810DA8A220ABD6A900EF2A54 /* Armeemesser.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		810DA86420ABD64400EF2A54 /* ArmeemesserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArmeemesserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		810DA86720ABD64400EF2A54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		810DA86920ABD64400EF2A54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		810DA86C20ABD64400EF2A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		810DA86F20ABD64400EF2A54 /* ArmeemesserDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArmeemesserDemo.xcdatamodel; sourceTree = "<group>"; };
+		810DA87120ABD64500EF2A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		810DA87420ABD64500EF2A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		810DA87620ABD64500EF2A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810DA87B20ABD64500EF2A54 /* ArmeemesserDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmeemesserDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		810DA87F20ABD64500EF2A54 /* ArmeemesserDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmeemesserDemoTests.swift; sourceTree = "<group>"; };
+		810DA88120ABD64500EF2A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810DA88620ABD64500EF2A54 /* ArmeemesserDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmeemesserDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		810DA88A20ABD64500EF2A54 /* ArmeemesserDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmeemesserDemoUITests.swift; sourceTree = "<group>"; };
+		810DA88C20ABD64500EF2A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810DA89820ABD69C00EF2A54 /* Armeemesser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Armeemesser.xcodeproj; path = ../Armeemesser.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		810DA86120ABD64400EF2A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810DA8A120ABD6A900EF2A54 /* Armeemesser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810DA87820ABD64500EF2A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810DA88320ABD64500EF2A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		810DA85B20ABD64400EF2A54 = {
+			isa = PBXGroup;
+			children = (
+				810DA89820ABD69C00EF2A54 /* Armeemesser.xcodeproj */,
+				810DA86620ABD64400EF2A54 /* ArmeemesserDemo */,
+				810DA87E20ABD64500EF2A54 /* ArmeemesserDemoTests */,
+				810DA88920ABD64500EF2A54 /* ArmeemesserDemoUITests */,
+				810DA86520ABD64400EF2A54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		810DA86520ABD64400EF2A54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				810DA86420ABD64400EF2A54 /* ArmeemesserDemo.app */,
+				810DA87B20ABD64500EF2A54 /* ArmeemesserDemoTests.xctest */,
+				810DA88620ABD64500EF2A54 /* ArmeemesserDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		810DA86620ABD64400EF2A54 /* ArmeemesserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				810DA86720ABD64400EF2A54 /* AppDelegate.swift */,
+				810DA86920ABD64400EF2A54 /* ViewController.swift */,
+				810DA86B20ABD64400EF2A54 /* Main.storyboard */,
+				810DA87120ABD64500EF2A54 /* Assets.xcassets */,
+				810DA87320ABD64500EF2A54 /* LaunchScreen.storyboard */,
+				810DA87620ABD64500EF2A54 /* Info.plist */,
+				810DA86E20ABD64400EF2A54 /* ArmeemesserDemo.xcdatamodeld */,
+			);
+			path = ArmeemesserDemo;
+			sourceTree = "<group>";
+		};
+		810DA87E20ABD64500EF2A54 /* ArmeemesserDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				810DA87F20ABD64500EF2A54 /* ArmeemesserDemoTests.swift */,
+				810DA88120ABD64500EF2A54 /* Info.plist */,
+			);
+			path = ArmeemesserDemoTests;
+			sourceTree = "<group>";
+		};
+		810DA88920ABD64500EF2A54 /* ArmeemesserDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				810DA88A20ABD64500EF2A54 /* ArmeemesserDemoUITests.swift */,
+				810DA88C20ABD64500EF2A54 /* Info.plist */,
+			);
+			path = ArmeemesserDemoUITests;
+			sourceTree = "<group>";
+		};
+		810DA89920ABD69C00EF2A54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				810DA89E20ABD69C00EF2A54 /* Armeemesser.framework */,
+				810DA8A020ABD69C00EF2A54 /* ArmeemesserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		810DA86320ABD64400EF2A54 /* ArmeemesserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810DA88F20ABD64500EF2A54 /* Build configuration list for PBXNativeTarget "ArmeemesserDemo" */;
+			buildPhases = (
+				810DA86020ABD64400EF2A54 /* Sources */,
+				810DA86120ABD64400EF2A54 /* Frameworks */,
+				810DA86220ABD64400EF2A54 /* Resources */,
+				810DA8A520ABD6A900EF2A54 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810DA8A420ABD6A900EF2A54 /* PBXTargetDependency */,
+			);
+			name = ArmeemesserDemo;
+			productName = ArmeemesserDemo;
+			productReference = 810DA86420ABD64400EF2A54 /* ArmeemesserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		810DA87A20ABD64500EF2A54 /* ArmeemesserDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810DA89220ABD64500EF2A54 /* Build configuration list for PBXNativeTarget "ArmeemesserDemoTests" */;
+			buildPhases = (
+				810DA87720ABD64500EF2A54 /* Sources */,
+				810DA87820ABD64500EF2A54 /* Frameworks */,
+				810DA87920ABD64500EF2A54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810DA87D20ABD64500EF2A54 /* PBXTargetDependency */,
+			);
+			name = ArmeemesserDemoTests;
+			productName = ArmeemesserDemoTests;
+			productReference = 810DA87B20ABD64500EF2A54 /* ArmeemesserDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		810DA88520ABD64500EF2A54 /* ArmeemesserDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810DA89520ABD64500EF2A54 /* Build configuration list for PBXNativeTarget "ArmeemesserDemoUITests" */;
+			buildPhases = (
+				810DA88220ABD64500EF2A54 /* Sources */,
+				810DA88320ABD64500EF2A54 /* Frameworks */,
+				810DA88420ABD64500EF2A54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810DA88820ABD64500EF2A54 /* PBXTargetDependency */,
+			);
+			name = ArmeemesserDemoUITests;
+			productName = ArmeemesserDemoUITests;
+			productReference = 810DA88620ABD64500EF2A54 /* ArmeemesserDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		810DA85C20ABD64400EF2A54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = wujianguo;
+				TargetAttributes = {
+					810DA86320ABD64400EF2A54 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					810DA87A20ABD64500EF2A54 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 810DA86320ABD64400EF2A54;
+					};
+					810DA88520ABD64500EF2A54 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 810DA86320ABD64400EF2A54;
+					};
+				};
+			};
+			buildConfigurationList = 810DA85F20ABD64400EF2A54 /* Build configuration list for PBXProject "ArmeemesserDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 810DA85B20ABD64400EF2A54;
+			productRefGroup = 810DA86520ABD64400EF2A54 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 810DA89920ABD69C00EF2A54 /* Products */;
+					ProjectRef = 810DA89820ABD69C00EF2A54 /* Armeemesser.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				810DA86320ABD64400EF2A54 /* ArmeemesserDemo */,
+				810DA87A20ABD64500EF2A54 /* ArmeemesserDemoTests */,
+				810DA88520ABD64500EF2A54 /* ArmeemesserDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		810DA89E20ABD69C00EF2A54 /* Armeemesser.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Armeemesser.framework;
+			remoteRef = 810DA89D20ABD69C00EF2A54 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		810DA8A020ABD69C00EF2A54 /* ArmeemesserTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ArmeemesserTests.xctest;
+			remoteRef = 810DA89F20ABD69C00EF2A54 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		810DA86220ABD64400EF2A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810DA87520ABD64500EF2A54 /* LaunchScreen.storyboard in Resources */,
+				810DA87220ABD64500EF2A54 /* Assets.xcassets in Resources */,
+				810DA86D20ABD64400EF2A54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810DA87920ABD64500EF2A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810DA88420ABD64500EF2A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		810DA86020ABD64400EF2A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810DA87020ABD64400EF2A54 /* ArmeemesserDemo.xcdatamodeld in Sources */,
+				810DA86A20ABD64400EF2A54 /* ViewController.swift in Sources */,
+				810DA86820ABD64400EF2A54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810DA87720ABD64500EF2A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810DA88020ABD64500EF2A54 /* ArmeemesserDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810DA88220ABD64500EF2A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810DA88B20ABD64500EF2A54 /* ArmeemesserDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		810DA87D20ABD64500EF2A54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810DA86320ABD64400EF2A54 /* ArmeemesserDemo */;
+			targetProxy = 810DA87C20ABD64500EF2A54 /* PBXContainerItemProxy */;
+		};
+		810DA88820ABD64500EF2A54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810DA86320ABD64400EF2A54 /* ArmeemesserDemo */;
+			targetProxy = 810DA88720ABD64500EF2A54 /* PBXContainerItemProxy */;
+		};
+		810DA8A420ABD6A900EF2A54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Armeemesser;
+			targetProxy = 810DA8A320ABD6A900EF2A54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		810DA86B20ABD64400EF2A54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810DA86C20ABD64400EF2A54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		810DA87320ABD64500EF2A54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810DA87420ABD64500EF2A54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		810DA88D20ABD64500EF2A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		810DA88E20ABD64500EF2A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		810DA89020ABD64500EF2A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG5J7PR53Y;
+				INFOPLIST_FILE = ArmeemesserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.ArmeemesserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		810DA89120ABD64500EF2A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG5J7PR53Y;
+				INFOPLIST_FILE = ArmeemesserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.ArmeemesserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		810DA89320ABD64500EF2A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG5J7PR53Y;
+				INFOPLIST_FILE = ArmeemesserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.ArmeemesserDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArmeemesserDemo.app/ArmeemesserDemo";
+			};
+			name = Debug;
+		};
+		810DA89420ABD64500EF2A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG5J7PR53Y;
+				INFOPLIST_FILE = ArmeemesserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.ArmeemesserDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArmeemesserDemo.app/ArmeemesserDemo";
+			};
+			name = Release;
+		};
+		810DA89620ABD64500EF2A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG5J7PR53Y;
+				INFOPLIST_FILE = ArmeemesserDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.ArmeemesserDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArmeemesserDemo;
+			};
+			name = Debug;
+		};
+		810DA89720ABD64500EF2A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG5J7PR53Y;
+				INFOPLIST_FILE = ArmeemesserDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.ArmeemesserDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArmeemesserDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		810DA85F20ABD64400EF2A54 /* Build configuration list for PBXProject "ArmeemesserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810DA88D20ABD64500EF2A54 /* Debug */,
+				810DA88E20ABD64500EF2A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810DA88F20ABD64500EF2A54 /* Build configuration list for PBXNativeTarget "ArmeemesserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810DA89020ABD64500EF2A54 /* Debug */,
+				810DA89120ABD64500EF2A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810DA89220ABD64500EF2A54 /* Build configuration list for PBXNativeTarget "ArmeemesserDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810DA89320ABD64500EF2A54 /* Debug */,
+				810DA89420ABD64500EF2A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810DA89520ABD64500EF2A54 /* Build configuration list for PBXNativeTarget "ArmeemesserDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810DA89620ABD64500EF2A54 /* Debug */,
+				810DA89720ABD64500EF2A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		810DA86E20ABD64400EF2A54 /* ArmeemesserDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				810DA86F20ABD64400EF2A54 /* ArmeemesserDemo.xcdatamodel */,
+			);
+			currentVersion = 810DA86F20ABD64400EF2A54 /* ArmeemesserDemo.xcdatamodel */;
+			path = ArmeemesserDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 810DA85C20ABD64400EF2A54 /* Project object */;
+}

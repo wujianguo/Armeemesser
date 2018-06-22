@@ -21,6 +21,16 @@
 		810DA8C520ABFB9B00EF2A54 /* ConsoleDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8C420ABFB9B00EF2A54 /* ConsoleDomain.swift */; };
 		810DA8C720ABFBA800EF2A54 /* NetworkDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8C620ABFBA800EF2A54 /* NetworkDomain.swift */; };
 		810DA8C920AC16B600EF2A54 /* DatabaseDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8C820AC16B600EF2A54 /* DatabaseDomain.swift */; };
+		810DA8D120AEA92D00EF2A54 /* PageDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8D020AEA92D00EF2A54 /* PageDomain.swift */; };
+		810DA8D320AEA94400EF2A54 /* RuntimeDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8D220AEA94400EF2A54 /* RuntimeDomain.swift */; };
+		810DA8D520AEA95900EF2A54 /* ProfilerDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8D420AEA95900EF2A54 /* ProfilerDomain.swift */; };
+		810DA8D720AEA96600EF2A54 /* DebuggerDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8D620AEA96600EF2A54 /* DebuggerDomain.swift */; };
+		810DA8D920AEA97600EF2A54 /* DOMDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8D820AEA97600EF2A54 /* DOMDomain.swift */; };
+		810DA8DB20AEA97F00EF2A54 /* CSSDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8DA20AEA97F00EF2A54 /* CSSDomain.swift */; };
+		810DA8DD20AEA99100EF2A54 /* OverlayDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8DC20AEA99100EF2A54 /* OverlayDomain.swift */; };
+		810DA8DF20AEA99F00EF2A54 /* ServiceWorkerDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8DE20AEA99F00EF2A54 /* ServiceWorkerDomain.swift */; };
+		810DA8E120AEA9AC00EF2A54 /* InspectorDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8E020AEA9AC00EF2A54 /* InspectorDomain.swift */; };
+		810DA8E320AEA9B900EF2A54 /* TargetDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DA8E220AEA9B900EF2A54 /* TargetDomain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +62,16 @@
 		810DA8C420ABFB9B00EF2A54 /* ConsoleDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleDomain.swift; sourceTree = "<group>"; };
 		810DA8C620ABFBA800EF2A54 /* NetworkDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDomain.swift; sourceTree = "<group>"; };
 		810DA8C820AC16B600EF2A54 /* DatabaseDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseDomain.swift; sourceTree = "<group>"; };
+		810DA8D020AEA92D00EF2A54 /* PageDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDomain.swift; sourceTree = "<group>"; };
+		810DA8D220AEA94400EF2A54 /* RuntimeDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeDomain.swift; sourceTree = "<group>"; };
+		810DA8D420AEA95900EF2A54 /* ProfilerDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilerDomain.swift; sourceTree = "<group>"; };
+		810DA8D620AEA96600EF2A54 /* DebuggerDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggerDomain.swift; sourceTree = "<group>"; };
+		810DA8D820AEA97600EF2A54 /* DOMDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOMDomain.swift; sourceTree = "<group>"; };
+		810DA8DA20AEA97F00EF2A54 /* CSSDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSSDomain.swift; sourceTree = "<group>"; };
+		810DA8DC20AEA99100EF2A54 /* OverlayDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayDomain.swift; sourceTree = "<group>"; };
+		810DA8DE20AEA99F00EF2A54 /* ServiceWorkerDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceWorkerDomain.swift; sourceTree = "<group>"; };
+		810DA8E020AEA9AC00EF2A54 /* InspectorDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorDomain.swift; sourceTree = "<group>"; };
+		810DA8E220AEA9B900EF2A54 /* TargetDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetDomain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +150,16 @@
 				810DA8C420ABFB9B00EF2A54 /* ConsoleDomain.swift */,
 				810DA8C620ABFBA800EF2A54 /* NetworkDomain.swift */,
 				810DA8C820AC16B600EF2A54 /* DatabaseDomain.swift */,
+				810DA8D020AEA92D00EF2A54 /* PageDomain.swift */,
+				810DA8D220AEA94400EF2A54 /* RuntimeDomain.swift */,
+				810DA8D420AEA95900EF2A54 /* ProfilerDomain.swift */,
+				810DA8D620AEA96600EF2A54 /* DebuggerDomain.swift */,
+				810DA8D820AEA97600EF2A54 /* DOMDomain.swift */,
+				810DA8DA20AEA97F00EF2A54 /* CSSDomain.swift */,
+				810DA8DC20AEA99100EF2A54 /* OverlayDomain.swift */,
+				810DA8DE20AEA99F00EF2A54 /* ServiceWorkerDomain.swift */,
+				810DA8E020AEA9AC00EF2A54 /* InspectorDomain.swift */,
+				810DA8E220AEA9B900EF2A54 /* TargetDomain.swift */,
 			);
 			path = ChromeDevTools;
 			sourceTree = "<group>";
@@ -281,14 +311,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				810DA8C720ABFBA800EF2A54 /* NetworkDomain.swift in Sources */,
+				810DA8E120AEA9AC00EF2A54 /* InspectorDomain.swift in Sources */,
 				810DA8BA20ABEB8B00EF2A54 /* Compression.swift in Sources */,
+				810DA8DF20AEA99F00EF2A54 /* ServiceWorkerDomain.swift in Sources */,
+				810DA8D520AEA95900EF2A54 /* ProfilerDomain.swift in Sources */,
+				810DA8D120AEA92D00EF2A54 /* PageDomain.swift in Sources */,
+				810DA8D320AEA94400EF2A54 /* RuntimeDomain.swift in Sources */,
 				810DA8C120ABFB1100EF2A54 /* Domain.swift in Sources */,
 				810DA8BC20ABEB8B00EF2A54 /* WebSocket.swift in Sources */,
 				810DA8C920AC16B600EF2A54 /* DatabaseDomain.swift in Sources */,
+				810DA8DD20AEA99100EF2A54 /* OverlayDomain.swift in Sources */,
+				810DA8DB20AEA97F00EF2A54 /* CSSDomain.swift in Sources */,
 				810DA8BB20ABEB8B00EF2A54 /* SSLSecurity.swift in Sources */,
 				810DA8C320ABFB7700EF2A54 /* LogDomain.swift in Sources */,
 				810DA8A920ABD8EC00EF2A54 /* ChromeDevTools.swift in Sources */,
 				810DA8C520ABFB9B00EF2A54 /* ConsoleDomain.swift in Sources */,
+				810DA8D920AEA97600EF2A54 /* DOMDomain.swift in Sources */,
+				810DA8D720AEA96600EF2A54 /* DebuggerDomain.swift in Sources */,
+				810DA8E320AEA9B900EF2A54 /* TargetDomain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

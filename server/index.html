@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>test cookie</title>
+</head>
+
+<body>
+    <p>hello world</p>
+    <button type="button" onclick="check()">check</button>
+</body>
+
+<script>
+    function check() {
+        if (document.cookie.length>0) {
+            document.write("<h1>This is a paragraph</h1>");
+            // alert(document.cookie)
+            document.write(document.cookie);
+        } else {
+            document.write("<h1>no cookie</h1>");
+            // alert("no")
+        }
+    }
+</script>
+
+</html>

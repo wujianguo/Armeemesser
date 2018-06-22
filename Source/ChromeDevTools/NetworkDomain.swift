@@ -344,7 +344,7 @@ enum NetworkMethod {
 }
 
 
-open class NetworkDomain: Domain {
+open class NetworkDomain: NSObject, Domain, URLSessionDataDelegate {
     
     var name: String = "Network"
     
@@ -363,4 +363,13 @@ open class NetworkDomain: Domain {
     func handle(id: Int, method: String, params: Dictionary<String, Any>?) {
     
     }
+
+//    public func urlSession(_ session: URLSession, task: URLSessionTask, willPerformHTTPRedirection response: HTTPURLResponse, newRequest request: URLRequest, completionHandler: @escaping (URLRequest?) -> Void) {
+//
+//    }
+    
+    public func urlSession(_ session: URLSession, dataTask: URLSessionDataTask, didReceive response: URLResponse, completionHandler: @escaping (URLSession.ResponseDisposition) -> Void) {
+        
+    }
+    
 }
